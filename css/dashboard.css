@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.main .navbar{
+    background-color: rgb(115, 66, 162);
+    width: 15%;
+    height: 100vh;
+}
+
+.main .navbar ul{
+    list-style-type: none;
+    width:80%;
+    margin: auto;
+}
+.main .navbar ul li{
+    color: white;
+    width: 90%;
+    padding: 20px 0px 20px 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+.main .navbar ul li:hover{
+
+
+    background-color: rgb(171, 147, 194);
+    transition: all 1s;
+    cursor: pointer;
+
+}
+.main .navbar ul li a{
+
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.main .navbar ul li a i{
+
+padding-right: 10px;
+}
+
+.main .board{
+    width: 85%;
+    background-color: rgb(241, 241, 241);
+}
+
+
+.header{
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 5px 15px gainsboro;
+}
+.header #sec1{
+    width: 70%;  
+}
+.header #sec1 p,h2{
+
+   color: rgb(115, 66, 162);
+   padding: 10px;
+    
+}
+.header #sec2{
+display: flex;
+flex-direction: row;
+margin: auto;
+}
+.header #sec2 input[type=search]{
+background-color: rgb(228, 228, 228);
+border: none;
+width: 200px;
+border-radius: 10px;
+height: 40px;
+font-size: 18px;
+padding: 10px;
+margin-right: 30px;
+    }
+.header #sec2 img{
+
+border-radius: 100%;
+width: 45px;
+height: 45px;
+
+}
+
+.main .today_data{
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 5px 15px gainsboro;
+}
+
+.main .today_data .item{
+background-color: rgb(251, 240, 231);
+width: 25%;
+padding: 10px;
+margin: 30px 10px;
+display: flex;
+flex-direction: column;
+border-radius: 10px;
+transition: margin 1s;
+} 
+.main .today_data .item:hover{
+    margin: 10px 10px 30px 10px;
+height: 100px;
+cursor: pointer;
+    }   
+.main .today_data #orange {
+    background-color: rgb(251, 240, 231);
+    } 
+    .main .today_data #blue {
+        background-color: rgb(231, 233, 251);
+        } 
+        .main .today_data #green {
+            background-color: rgb(234, 251, 231);
+            } 
+    .main .today_data #purple {
+        background-color: rgb(238, 218, 254);
+} 
+.main .today_data .item .row{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    }  
+    .main .today_data  .item .row  i{
+    
+
+        margin-left: 30px;
+        padding: 15px 20px;
+        border-radius: 100%;
+        font-size: 20px;
+        color: white;
+                }
+    .main .today_data  #orange i{
+    
+background-color: orangered;
+        }
+        .main .today_data  #purple i{
+    
+            background-color: purple;
+                    }
+                    .main .today_data  #blue i{
+    
+                        background-color: blue;
+
+                                }
+                                .main .today_data  #green i{
+    
+                                    background-color: green;
+ 
+                                            }
+        .main .today_data .item #card_id{
+    
+ margin: auto;
+ font-size: 20px;
+ letter-spacing: 0.3ch;
+ margin-top: 23px;
+                    }
+
+
+
+
+
+
+.finance_data{
+
+        background-color: white;
+        margin: 20px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 5px 15px gainsboro;  
+}
+.finance_data p{
+
+color: rgb(115, 66, 162);
+font-size: 17px;
+font-weight: bold;
+padding: 30px 30px 3px 30px;
+ 
+}
+.finance_data table{
+border-collapse: collapse;
+margin: 23px;
+text-align: center;
+}
+.finance_data table thead th{
+    color:white;
+    background-color: rgb(115, 66, 162); 
+    padding: 15px;   
+}
+.finance_data table tbody tr td{
+   padding: 20px;
+
+}
+.finance_data table tbody  tr:nth-child(odd) 
+{
+    background-color: #f2f2f2;
+}
+
+.total{
+    background-color: rgb(115, 66, 162);
+    color: white;
+    text-align: left;
+    padding: 20px;
+    font-size: 16px;
+}
+
+
+
+@media screen and (max-width: 570px) {
+   
+}
